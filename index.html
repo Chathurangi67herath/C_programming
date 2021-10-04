@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="up">
+<div class="home">Home</div>
+<div class="tutorials" id="own">Tutorials</div>
+<div class="exercises">Exercises</div>
+<div class="references">References</div>
+<div class="profile">Profile</div>
+    </div>
+
+    <div class="down">
+<div class="tutoList">
+    <div class="">Introduction</div>
+    <div class="">Data Types</div>
+    <div class="">Variables</div>
+    <div class="">Comments</div>
+    <div class="">I/O Functions</div>
+    <div class="">Operators</div>
+    <div class="">Selections</div>
+    <div class="">Repetitions</div>
+    <div class="">Arrays</div>
+    <div class="">Strings</div>
+    <div class="">Pointers</div>
+    <div class="">Functions</div>
+    <div class="">Structures and Unions</div>
+    <div class="">Storage Classes</div>
+    <div class="">Allocating Memory</div>
+    <div class="">File Handling</div>
+    <div class="">Error Handling</div>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="first"><button>Previous</button></div>
+        <div class="first"><h1>Introduction</h1></div>
+        <div class="first"><button>Next</button></div>
+    </div>
+
+    <div class="middle">
+        <h2>Introduction</h2>
+         <p>C is a widely used programming language developed 
+         in the early 1970s at Bell Laboratories. It is a by-product
+          of UNIX operating system. The language was built by Ken 
+          Thompson and Dennis Ritchie in order to fulfill the need of 
+          having a high level language for the further development of 
+          UNIX OS. The first book on C is "The C Programming Language" 
+          by Brian Kernighan and Dennis Ritchie (1978). By 1980, C compilers
+           were available on variety of machines running under different 
+           operating systems.</p>
+           <br>
+           <ul type="square">
+           <h2>Key Features</h2>
+           <li><h3>Low-Level Language</h3></li>
+           <p>C is suitable for systems programming. 
+           It provides access to machine-level concepts 
+           (e.g. bytes and addresses) and operations that are
+            closely to a computer's built-in instructions; hence 
+            programs can be fast.</p>
+           <li><h3>Small Language</h3></li>
+           <p>C provides a limited set of features than many 
+           languages. It relies on a library of standard functions.</p>
+           <br>
+           <h2>Strengths</h2>
+           <li><h3>Efficiency</h3></li> 
+           <p>- Because C was intended for applications where 
+           assembly language had traditionally been used, it was 
+           crucial that C programs could run quickly and in 
+           limited amounts of memory.</p>
+           <li><h3>Portability</h3> </li>
+           <p>- C programs can run on computers
+                ranging from PCs to super computers.</p>
+           <li><h3>Power</h3></li> 
+           <p>- C language has large collection of data types and operators. As a
+                result of this, we can accomplish task with a few lines of code.</p>
+           <li><h3>Flexibility</h3></li> 
+           <p>- Although C was initially designed for system programming, C is now used for applications of all kinds (e.g. embedded systems, commercial applications). Few restrictions are on the use of its
+                features (e.g. adding an integer value to a string).</p>
+           <li><h3>Standard library</h3></li> 
+           <p>- contains hundreds of functions for input/output, 
+               string handling, storage allocation and other useful operations.</p>
+<br>
+<h2>Weaknesses</h2>
+
+<li><h3>C programs are error-prone </h3></li>
+<p>- C's flexibility makes it an error-prone language. 
+Programming mistakes that would be caught by other programming
+ languages can't detect by a C compiler.</p>
+
+<li><h3>C programs can be difficult to understand </h3></li>
+<p>- C has some features that are not found 
+in other programming languages. These features allow
+ programmers to write programs in variety of ways; many
+  of which obvious to original authors but not others.</p>
+
+<li><h3>C programs can be difficult to modify </h3></li>
+<p>- Large programs written in C can be hard to 
+change if they haven't been designed with maintenance
+ in mind.</p></ul>
+ <br>
+ <h2>First C Program</h2>
+<p>The C language facilitates a structured and disciplined 
+approach to computer programming. C programming consists of one or 
+more modules called functions. The following program displays the 
+message "Hello world!" each time it runs. </p> 
+    <pre>
+        Line 1------------>  #include <stdio.h>
+        Line 2------------>  int main ()
+        Line 3------------>  /* start of main */
+        Line 4------------>  printf("Welcome to C Programming\n");
+        Line 5------------>  /* program body */
+        Line 6------------>  return 0;
+        Line 7------------>  /* end of main */
+    </pre>
+
+
+    <h4>Line 1:</h4> 
+    <p>"#include <stdio.h>" Tells the C compiler to include 
+        the standard input output (1/0) header file stdio.h as part 
+        of the program, because it contains information that the C 
+        compiler needs to compile most programs. We must include in 
+        our program before "main".</p>
+
+    <h4>Line 2: </h4>
+    <p>The program begins with int main (). 
+    Many compilers require naming the function where 
+    the execution begins as main. The program's executable 
+    codes goes inside main() function. Following main there 
+    must be open and closed parentheses.</p>
+    
+    <h4>Line 3: </h4>
+    <p>The open brace indicates to C, the beginning 
+    of the main function in the program.</p>
+    
+    <h4>Line 4:</h4> 
+    <p>To output information onto the screen, we use 
+    the word (function from standard I/O library) 'printf". 
+    It can display any type of variable formatted as a string 
+    enclosed in speech marks. "\n" tells printf() to advance to 
+    the next line after printing the message.</p>
+    
+    <h4>Line 5: </h4>
+    <p>Represents the body (program statements) of 
+    the main function that performs the purpose of it. 
+    The lines between beginning and ending lines are the heart
+     of a program. They are called statements. It is a complete 
+     instruction to a computer. The semicolon marks the end of the 
+     statement. There's no need of each statement fits on exactly one line. 
+     But as a good programming practice there should be no more than one 
+     statement per line in a program.</p>
+    <h4>Line 6: </h4>
+    <p>"return 0;" indicates that the program "returns" 
+    the value 0 to the operating system when it terminates.</p>
+    
+    <h4>Line 7:</h4> 
+    <p>The closed brace indicates the end of the
+     main function. Everything between the braces is 
+     a part of the main function.</p>
+
+    </div>
+    <div class="footer">
+        <div class="first"><button>Previous</button></div>
+        <div class="first"><button>Exercise</button></div>
+        <div class="first"><button>Next</button></div>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>

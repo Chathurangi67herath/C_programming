@@ -1,0 +1,142 @@
+body {
+  background-size: 100vh 100vw;
+  background-color: #110f1b;
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+
+.up div {
+  background-color: #200a5e;
+  width: 20%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+  padding: 1%;
+}
+
+.up div:hover {
+  background-color: #110f1b;
+  text-decoration: underline;
+  color: #858488;
+}
+
+.up #own {
+  background-color: #858488;
+}
+
+.down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.down .tutoList {
+  width: 20%;
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.down .tutoList div {
+  background-color: #858488;
+  height: 1.5%;
+  text-align: center;
+  font-size: 110%;
+  padding: 5%;
+  border-top: solid #b3b3bb;
+}
+
+.down .tutoList div:hover {
+  background-color: #b3b3bb;
+  color: white;
+}
+
+.down .content {
+  width: 80%;
+}
+
+.down .content .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #858488;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.down .content .header button {
+  background-color: #200a5e;
+  color: white;
+  width: 100%;
+  height: 50%;
+  border-radius: 20%;
+}
+
+.down .content .header .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.down .content .header button:hover {
+  background-color: #b3b3bb;
+  color: #110f1b;
+}
+
+.down .content .middle {
+  background-color: #b3b3bb;
+  margin: 0%;
+  text-align: justify;
+  padding: 5%;
+}
+
+.down .content .middle h2 {
+  background-color: #858488;
+  color: #200a5e;
+  text-align: center;
+}
+
+.down .content .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #858488;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 5%;
+}
+
+.down .content .footer button {
+  background-color: #200a5e;
+  color: white;
+  width: 100%;
+  height: 40%;
+  border-radius: 20%;
+}
+
+.down .content .footer .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.down .content .footer button:hover {
+  background-color: #b3b3bb;
+  color: #110f1b;
+}
+/*# sourceMappingURL=new.css.map */
